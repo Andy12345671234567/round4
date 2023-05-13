@@ -6,7 +6,8 @@ from dash import Dash, dcc, html, Input, Output
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv('final.csv')
+df = pd.read_csv(
+    'https://raw.githubusercontent.com/Andy12345671234567/round4/main/final.csv')
 
 #Data cleaning
 #Adjusted the dates of sale to be mm-yy
